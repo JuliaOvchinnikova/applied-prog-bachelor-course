@@ -66,10 +66,11 @@ namespace WindowsFormsApplication1
             var reader = new StreamReader(httpResponse.GetResponseStream());
             MessageBox.Show("File Success rewrite");
         }
-        public class Content
-        {
-            public string path { get; set; }
-            public string text { get; set; }
-        }
+        
+    }
+    public class Content
+    {
+        public string path { get; set; }
+        public string text { get; set; }
     }
 }
